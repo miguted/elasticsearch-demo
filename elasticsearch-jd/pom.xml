@@ -9,13 +9,12 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>elasticsearch-demo</artifactId>
+    <artifactId>elasticsearch-jd</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>elasticsearch-demo</name>
+    <name>elasticsearch-jd</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
-        <elasticsearch.version>7.10.2</elasticsearch.version>
     </properties>
     <dependencies>
         <dependency>
@@ -25,19 +24,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.70</version>
-        </dependency>
-
-        <!-- jsoup 解析网页 -->
-        <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>1.10.3</version>
         </dependency>
 
         <dependency>
